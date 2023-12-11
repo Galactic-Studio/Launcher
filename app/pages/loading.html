@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading - Galactic Studio Launcher</title>
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+<body class="relative text-white">
+
+<img src="./image.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Background">
+<div class="absolute inset-0 bg-gradient-to-l from-transparent to-gray-900"></div>
+<div class="relative z-10 flex flex-col h-screen justify-between">
+    <div class="flex-1 flex justify-center items-center">
+        <div class="text-center">
+            <h2 class="text-4xl font-semibold">Galactic Studio Launcher</h2>
+            <p id="load" class="mt-2 text-md pt-3">Loading</p>
+        </div>
+    </div>
+
+    <progress class="progress w-full h-1 content-center"></progress>
+</div>
+<script src="../scripts/loading.js"></script>
+</body>
+</html>
